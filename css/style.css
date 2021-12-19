@@ -1,0 +1,139 @@
+/* ESTILOS DE RESETEO */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: var(--grey);
+}
+
+/* VARIABLES DE COLOR */
+
+:root {
+    --white: white;
+    --black: black;
+    --grey: #dfdfdf;
+    --grey2: #4D4D4D;
+    --greywhite: rgb(196, 196, 196);
+}
+
+/* ESTILOS AL HEADER */
+
+.header {
+    background-color: var(--white);
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+.header-container-navigation {
+    padding: .5rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    box-shadow: 1px 1px 20px 10px var(--greywhite); 
+}
+
+.Title {
+    float: left;
+    display: block;
+    font-size: 2rem;
+    margin: 0;
+    cursor: pointer;
+}
+
+.header-container-navigation-list-items {
+    float: right;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.header-links {
+    text-decoration: none;
+    color: var(--black);
+    padding: 0 .5rem;
+}
+
+/* ESTILOS AL SLIDE */
+.slider-container {
+    margin: auto;
+    background-color: var(--white);
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.img-slider {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* PRODUCTOS DESTACADOS */
+.container-produc {
+    width: 80%;
+    margin: auto;
+}
+.product-top-title {
+    font-size: .8rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.produc-top-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.product {
+    background-color: var(--white);
+    margin: auto;
+    width: 80%;
+    height: 8rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* FOOTER */
+.Footer-Father {
+    width: 100%;
+    background-color: var(--grey2);
+    bottom: 0;
+    left: 0;
+}
+
+.title-footer-logo {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    color: var(--greywhite);
+}
+
+.main-footer-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: var(--greywhite);
+}
+
+.title-footer {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--greywhite);
+}
+
+.info-footer {
+    text-align: center;
+    font-size: .9rem;
+    color: var(--greywhite);
+    margin: 0;
+}
+
+.title-footer-cedrit {
+    text-align: center;
+    color: var(--greywhite);
+    font-size: .7rem;
+    margin: 0;
+    padding: 0 0 1.3rem 0;
+}
